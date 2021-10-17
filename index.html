@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myntra project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <div class="containere">
+    <div class="navbar">
+      <div class="logo">
+        <img src="img/Myntra-logo-png-icon-715x715.png" alt="logo" width="90px">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="https://www.myntra.com/shop/women">Women</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Home living</a></li>
+          <li><a href="#">Beauty</a></li>
+        </ul>
+      </nav>
+      <div class="searchbox">
+        <input type="text" class="text" placeholder="Search for products,brands and more">
+        <div class="btn">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+      <span class="icons">
+        <ul>
+          <li><a href="#"><i class="fa fa-user">
+              </i>
+              <p>Profile</p>
+            </a></li>
+          <li><a href="#"><i class="fa fa-heart">
+              </i>
+              <p>Wishlist</p>
+            </a></li>
+          <li><a href="#"><i class="fa fa-shopping-bag"></i>
+              <p>Bag</p>
+            </a></li>
+
+        </ul>
+
+      </span>
+    </div>
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/6.jpg" alt=""></div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="offer">
+      <img src="img/7.jpg" alt="image">
+    </div>
+    <div class="deals">
+      <h1>
+        Deals Of The Day
+      </h1>
+    </div>
+    <div class="cont1">
+      <div class="8">
+        <img src="img/8.webp">
+      </div>
+      <div class="88">
+        <img src="img/88.webp">
+      </div>
+      <div class="9">
+        <img src="img/9.webp">
+      </div>
+      <div class="10">
+        <img src="img/10.jpg">
+      </div>
+      <div class="12">
+        <img src="img/n12.webp">
+      </div>
+    </div>
+    <div class="Biggest-Deals">
+      <h1>
+        Biggest Deals On Top Brands
+      </h1>
+    </div>
+    <div class="cont2">
+      <div class="b1">
+        <img src="img/b1.webp">
+      </div>
+      <div class="88">
+        <img src="img/b2.webp">
+      </div>
+      <div class="9">
+        <img src="img/b3.webp">
+      </div>
+      <div class="10">
+        <img src="img/b4.webp">
+      </div>
+      <div class="12">
+        <img src="img/b6.jpg">
+      </div>
+    </div>
+    <div class="cont3">
+      <div class="13">
+        <img src="img/13.webp">
+      </div>
+      <div class="14">
+        <img src="img/14.webp">
+      </div>
+      <div class="15">
+        <img src="img/15.webp">
+      </div>
+      <div class="18">
+        <img src="img/18.webp">
+      </div>
+      <div class="16">
+        <img src="img/16.jpg">
+      </div>
+    </div>
+    <div class="bag">
+      <h1>
+        Categories To Bag
+      </h1>
+    </div>
+    <div class="cont4">
+      <div class="r1">
+        <img src="img/r1.webp">
+        <pre>shirts</pre>
+      </div>
+      <div class="88">
+        <img src="img/r2.webp">
+       <pre>T-shirts</pre>
+      </div>
+      <div class="9">
+        <img src="img/r3.webp">
+        <pre>Jeans</pre>
+      </div>
+      <div class="10">
+        <img src="img/r4.webp">
+        <pre>Shorts and trouser</pre>
+      </div>
+      <div class="12">
+        <img src="img/r6.webp">
+        <pre>casual shoes</pre>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      }
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,270 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+       display: flex;
+       align-items: center;
+       /* padding:20px; */
+       background-color:rgb(242, 242, 242);
+}
+nav{
+    flex:1;
+    text-align: left;
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin-left:5px;
+}
+nav ul li a{
+    text-decoration: none;
+      padding:10px;
+    color: black;
+    /* font-family: 'Encode Sans SC', sans-serif; */
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border:2px solid red;
+   border-radius:14px;
+}
+.searchbox{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-right:30px;
+    position: relative;
+}
+
+.text{
+    width: 280px;
+    height: 43px;
+    padding:5px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: medium;
+    color: black;
+}
+.btn {
+align-items: center;
+    top: 10px;
+    position: relative;
+    margin-left: 10px;}
+button{
+    height:20px;
+}
+/* .icons{
+    float: right;
+    position:relative;
+}
+.profile{
+    display: inline-block;
+    padding-right:15px;
+    align-items: center;
+    text-align: center;
+    
+}
+.profile p{
+    text-align: center;
+}
+.Wishlist{
+    display: inline-block;
+    padding-right:15px;
+    align-items: center;
+    text-align: center;
+    
+}
+.Bag{
+    display: inline-block;
+    padding-right:15px;
+    align-items: center;
+    text-align: center;
+    
+} */
+.icons ul li{
+    list-style:none;
+    display: inline-block;
+    margin-left:5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.icons ul li a{
+    text-decoration:none;
+}
+.icons ul li a p{
+    
+    padding-right:10px;
+    color: black;
+    /* font-family: 'Encode Sans SC', sans-serif; */
+    text-transform: uppercase;
+}
+/* .containere{
+    max-width:1300px;
+  margin: auto;
+  padding-right:25px;
+  padding-left:25px;
+
+} */
+.swiper-container {
+    width: 100%;
+    height:50%;
+    margin-top:40px;
+ }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.offer{
+    max-width:100%;
+    height:40%;
+    margin-top:30px;
+}
+.offer img{
+   padding-left:25px;
+   padding-right:25px;
+}
+.deals{
+    margin-top:30px;
+    margin-left:40px;
+
+}
+.deals h1{
+    
+    text-transform: uppercase;
+    font-family: 'Encode Sans SC', sans-serif;
+    letter-spacing:7px;
+}
+.cont1{
+    margin-top:30px;
+    max-width:100%;
+    height:270px;
+    background:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.cont1 img{
+    width:240px;
+    padding-right:10px;
+    padding-left:10px;
+}
+.Biggest-Deals{
+    margin-top:30px;
+    margin-left:40px;
+
+}
+.deals h1{
+    
+    text-transform: uppercase;
+    font-family: 'Encode Sans SC', sans-serif;
+    letter-spacing:7px;
+}
+.cont2{
+    margin-top:30px;
+    max-width:100%;
+    height:270px;
+    background:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.cont2 img{
+    width:240px;
+    padding-right:10px;
+    padding-left:10px;
+}
+.cont3{
+    margin-top:120px;
+    max-width: 100%;
+    height:270px;
+    top:30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.cont3 img{
+    width:240px;
+    padding-right:10px;
+    padding-left:10px;
+}
+.cont4{
+    margin-top:120px;
+    max-width: 100%;
+    height:270px;
+    top:30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.cont4 img{
+    width:240px;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+    .bag {
+        margin-top: 171px;
+    }
+.bag h1{
+    
+    text-transform: uppercase;
+    font-family: 'Encode Sans SC', sans-serif;
+    letter-spacing:7px;
+}
+.cont4 pre{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navmenu{
+    min-width:100%;
+    background-color:rgb(16, 8, 9);
+    position:fixed;
+}
+.navmenu ul li{
+    display: inline-block;
+    list-style:none;
+    padding:15px;
+    text-align: center;
+}
+.navmenu ul li a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navmenu ul li a i{
+   
+    position: relative;
+    right: 0;
+}
